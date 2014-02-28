@@ -1,0 +1,35 @@
+
+Compare tools
+-------------
+WinMerge
+
+Remote connection Linux
+-----------------------
+putty
+filezilla / winscp
+Xming
+
+Source Code Management (SCM) Version Control System
+---------------------------------------------------
+git
+clearcase - IBM Rational
+svn - tortoise
+
+VSS - Visual Source Safe - MS
+TFS - Team Foundation Server - MS
+Perforce
+Concurrent Versioning System (CVS)
+
+
+Bug/Defect Tracking System
+-------------------------
+Bugzilla
+ClearQuest
+Redmine (Project Management System)
+
+
+Office (Outlook, Word,Excel,PowerPoint)
+------
+MS Office
+Oracle OpenOffice
+
