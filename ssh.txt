@@ -1,0 +1,22 @@
+
+Steps to create keys
+	ssh-keygen –t rsa
+	(default settings are good, just press enter a lot)
+	scp .ssh/id_rsa.pub $REMOTEUSER@$REMOTEHOST:$USER_at_$HOST.pub
+	ssh $REMOTEUSER@$REMOTEHOST
+	(Enter password)
+	mkdir -p .ssh
+	mv $USER_at_$HOST.pub .ssh/
+	cd .ssh
+	cp $USER_at_$HOST authorized_keys
+	chmod og-rwx authorized_keys
+	(Ctrl-d to log out, and see if you can log in again)
+
+
+If you want multiple account to have passwordless access.
+
+	(Create key and copy like above)
+	(Instead of cp … do)
+	cat $USER_at_$HOST.pub >> authorized_keys
+	(And if you should ever use a single > instead of >> you are screwed. Don’t do that.)
+
