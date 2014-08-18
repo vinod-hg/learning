@@ -33,3 +33,7 @@ Office (Outlook, Word,Excel,PowerPoint)
 MS Office
 Oracle OpenOffice
 
+Desktop Management
+------------------
+VirtuaWin - Multiple desktops for Windows
+
